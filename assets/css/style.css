@@ -148,7 +148,6 @@ li:hover {
     cursor: pointer;
     position: relative;
 }
-
 .line-1, .line-2{
     position: absolute;
     width: 20px;
@@ -159,14 +158,11 @@ li:hover {
     border-radius: 3px;
     transition: 0.3s ease-in-out;
 }
-
 .line-2 {
     width: 29px;
     top: auto;
     bottom: 24px;
 }
-
-/* why is this not displaying? */
 .dot {
     position: absolute;
     height: 7px;
@@ -177,18 +173,16 @@ li:hover {
     background: #B2DAFF;
     transition: 0.3s ease-in-out;
 }
-
-/* how do I get .line-1, .line-2, and .circle to all hover at the same time when cursor is over the .menu-icon area? *?
-.menu-icon:hover {
+/* figure out how to combine these 3 */
+.menu-icon:hover > .line-1 {
+        background: #fff;
+}
+.menu-icon:hover > .line-2 {
+        background: #fff;
+}
+.menu-icon:hover > .dot {
     background: #fff;
 }
-
-.menu-icon:hover {
-    .line-1, .line-2, .cirlcle {
-        background: #fff;
-    }
-}
-*/
 
 
 .line {
