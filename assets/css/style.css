@@ -173,16 +173,10 @@ li:hover {
     background: #B2DAFF;
     transition: 0.3s ease-in-out;
 }
-/* figure out how to combine these 3 */
-.menu-icon:hover > .line-1 {
-        background: #fff;
-}
-.menu-icon:hover > .line-2 {
-        background: #fff;
-}
-.menu-icon:hover > .dot {
+
+.menu-icon:hover i {
     background: #fff;
-} 
+}
 
 .line {
     position: absolute;
